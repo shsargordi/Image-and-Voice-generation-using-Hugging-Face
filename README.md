@@ -32,6 +32,6 @@ In Google Colab, save the token in **Secrets** using the same name used in the n
 ```text
 HF-token
 ```
-![Click on Secrets in Google Colab](ColabSecretspng) 
+![Click on Secrets in Google Colab](ColabSecrets.png) 
 
 Never write your Hugging Face token directly inside the notebook or upload it to GitHub.
