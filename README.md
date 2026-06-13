@@ -1,6 +1,6 @@
 # Image and Voice Generation using Hugging Face
 
-This project is a Google Colab notebook for testing image and voice generation using Hugging Face models.
+This project is a Google Colab notebook for testing image and voice generation using Hugging Face models (HF-colab-image-voice-Gen.ipynb).
 
 The notebook demonstrates:
 
@@ -35,3 +35,25 @@ HF-token
 ![Click on Secrets in Google Colab](ColabSecrets.png) 
 
 Never write your Hugging Face token directly inside the notebook or upload it to GitHub.
+
+
+
+## Hugging Face Pipelines
+
+This repository also includes a notebook for testing Hugging Face `pipeline` APIs with pre-trained models (HF-colab-translation-txt-to-voice-Gen.ipynb).
+
+The notebook demonstrates:
+
+* Sentiment analysis using the default Hugging Face sentiment model and **nlptown/bert-base-multilingual-uncased-sentiment**
+* Named entity recognition using the default Hugging Face NER model
+* Question answering using the default Hugging Face QA model
+* Text summarization using the default Hugging Face summarization model
+* English-to-French translation using the default translation pipeline
+* English-to-Spanish translation using **Helsinki-NLP/opus-mt-en-es**
+* Zero-shot classification using the default zero-shot classification model
+* Text generation using the default text-generation model
+* Image generation using **stabilityai/sdxl-turbo**
+* Text-to-speech using **microsoft/speecht5_tts**
+
+This notebook focuses on fast inference and prototyping with pre-trained Hugging Face models in Google Colab.
+
