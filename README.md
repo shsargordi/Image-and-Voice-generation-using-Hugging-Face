@@ -1,4 +1,4 @@
-# Image and Voice Generation using Hugging Face
+# Image and Voice Generation, Text to speech and speech to text, and traslation using Hugging Face
 
 This project is a Google Colab notebook for testing image and voice generation using Hugging Face models (HF-colab-image-voice-Gen.ipynb).
 
@@ -56,4 +56,16 @@ The notebook demonstrates:
 * Text-to-speech using **microsoft/speecht5_tts**
 
 This notebook focuses on fast inference and prototyping with pre-trained Hugging Face models in Google Colab.
+
+
+## Speech-to-Text Transcription
+
+This repository also includes a notebook for converting audio files, such as MP3 recordings, into text using **openai/whisper-medium.en** through the Hugging Face automatic speech recognition pipeline.
+
+The notebook demonstrates:
+
+* Speech-to-text transcription from audio files
+* Timestamp-based transcription
+* Meeting transcript generation for later summarization with LLMs
+
 
